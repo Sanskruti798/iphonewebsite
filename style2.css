@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:off-white gray;
+}
+
+/* ===== Header ===== */
+header {
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* ===== Navigation Links ===== */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: light gray;
+    text-decoration: underline;
+}
+
+/* ===== Section Box ===== */
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px grey;
+    width: 80%;
+    transition: transform 0.3s;
+}
+
+/* Hover effect (basic 3D) */
+section:hover {
+    transform: scale(1.03);
+}
+
+/* ===== Headings ===== */
+h1 {
+    color:white;
+
+
+
+/* ===== Images ===== */
+img {
+    border-radius: 0px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== Table (Buy Page) ===== */
+table {
+    margin: auto;
+    background-color:white;
+    display:flex;
+}
+
+td {
+    padding: 5px;
+}
+
+/* ===== Input Fields ===== */
+input[type="text"],
+input[type="textbox"],
+input[type="textarea"] {
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px ;
+}
+
+/* ===== Button ===== */
+button {
+    background-color:blue;
+    color:white;
+    padding: 10px 20px;
+    border: 2px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:blue;
+    color:white;
+}
+
+/* ===== Footer ===== */
+footer p {
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align:center;
+    margin:0;
+}
